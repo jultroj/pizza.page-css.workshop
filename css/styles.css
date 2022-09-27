@@ -1,0 +1,59 @@
+/**
+ * file: styles.css
+ **/
+:root {
+   --blue: #8cffde;
+   --white: #ebdcdc;
+   --reading: "Courier New", Courier, monospace;
+   --headings: "Courier New", Courier, monospace;
+
+
+
+}
+body {
+   background-color: #ccd9ff;
+   font-family: var(--reading);
+}
+h1 {
+font-family: var(--reading);
+}
+
+ /* felxbox sample */
+ .flexMe {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ /* ids are called like this */
+ #lorem {
+background-color: deeppink;
+width: 50%;
+height: 100px;
+ }
+ img {
+    width: 100px;
+    height: auto;
+ }
+
+ .responsiveImg {
+    width: 100%;
+    height: auto;
+
+ }
+
+.green {
+  background-color: #ffd9cc;  
+  width: 25%;
+  height: auto;
+  /*margins*/
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*padding*/
+  padding: 20px 20px 20px 20px;
+
+  /*border*/
+  border: 10px solid #ccffcc;
+  border-radius: 33px;
+}
